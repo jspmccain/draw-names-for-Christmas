@@ -22,4 +22,15 @@ draw_names <- function(data){
   return(permuted_family)
 }
 
+set.seed(1234)
 draw_names(data)
+
+##
+#     names couple_index
+#6    Scott            4
+#5   Hilary            3
+#1 Jonathan            1
+#3   Lauren            2
+#2    Julia            1
+#7   Hannah            5
+#4       JD            2
